@@ -20,7 +20,6 @@ def close_program():
     tkWindow.destroy()
 
 def start_download():
-    subprocess.call('cls',shell=False)
     with open("music.txt", "r") as f:
         music_list = f.readlines()
 
